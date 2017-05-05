@@ -2,8 +2,8 @@
 //  DateCollectionViewCell.swift
 //  DateTimePicker
 //
-//  Created by Huong Do on 9/26/16.
-//  Copyright © 2016 ichigo. All rights reserved.
+//  Created by Kevin Fich on 9/26/16.
+//  Copyright © 2016 Kevin Fich. All rights reserved.
 //
 
 import UIKit
