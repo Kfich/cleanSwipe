@@ -1,10 +1,4 @@
-//
-//  AuthManager.swift
-//  Envested
-//
-//  Created by Lin Gang Xuan on 30/12/15.
-//  Copyright © 2015 Envested. All rights reserved.
-//
+
 
 import Foundation
 
