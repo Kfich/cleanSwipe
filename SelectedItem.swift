@@ -2,8 +2,8 @@
 //  SelectedItems.swift
 //  CS Dry Cleaning
 //
-//  Created by Don Sirivat on 1/16/17.
-//  Copyright © 2017 Don Sirivat. All rights reserved.
+//  Created by Kevin Fich on 1/16/17.
+//  Copyright © 2017 Kevin Fich. All rights reserved.
 //
 
 import Foundation
