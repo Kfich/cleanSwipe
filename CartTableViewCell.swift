@@ -2,7 +2,7 @@
 //  CartTableViewCell.swift
 //  CS Dry Cleaning
 //
-//  Created by Don Sirivat on 1/16/17.
+//  Created by Kevin Fich on 1/16/17.
 //  Copyright © 2017 Kevin Fich. All rights reserved.
 //
 
