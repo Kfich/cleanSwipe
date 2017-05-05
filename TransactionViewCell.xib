@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Geomanist-Regular.otf">
+            <string>Geomanist-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TransactionCell" rowHeight="85" id="KGk-i7-Jjw" customClass="TransactionViewCell" customModule="CleanSwipe0_1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CZI-hN-czD">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purchase date: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fej-eX-Pfi">
+                                <fontDescription key="fontDescription" name="Geomanist-Regular" family="Geomanist" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ch-Ib-RY0">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="151" id="Lwv-4J-9YD"/>
+                                    <constraint firstAttribute="height" constant="26" id="uAL-UE-ac6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Geomanist-Regular" family="Geomanist" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="uAL-UE-ac6"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3o-tY-lWc">
+                                <fontDescription key="fontDescription" name="Geomanist-Regular" family="Geomanist" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="71" id="5Do-21-etQ"/>
+                            <constraint firstItem="5Ch-Ib-RY0" firstAttribute="bottom" secondItem="CZI-hN-czD" secondAttribute="bottomMargin" id="9cp-rO-h2C"/>
+                            <constraint firstItem="fej-eX-Pfi" firstAttribute="leading" secondItem="CZI-hN-czD" secondAttribute="leadingMargin" id="L1c-iC-BKK"/>
+                            <constraint firstItem="f3o-tY-lWc" firstAttribute="leading" secondItem="5Ch-Ib-RY0" secondAttribute="trailing" constant="2" id="Lvq-ld-ujl"/>
+                            <constraint firstItem="fej-eX-Pfi" firstAttribute="top" secondItem="f3o-tY-lWc" secondAttribute="top" id="Q8n-Ul-ewM"/>
+                            <constraint firstItem="5Ch-Ib-RY0" firstAttribute="top" secondItem="f3o-tY-lWc" secondAttribute="top" constant="29" id="Qvy-53-nXt"/>
+                            <constraint firstItem="fej-eX-Pfi" firstAttribute="top" secondItem="CZI-hN-czD" secondAttribute="topMargin" id="dR4-Kf-VDT"/>
+                            <constraint firstItem="fej-eX-Pfi" firstAttribute="trailing" secondItem="5Ch-Ib-RY0" secondAttribute="trailing" constant="-17" id="mXj-YA-XXc"/>
+                            <constraint firstItem="5Ch-Ib-RY0" firstAttribute="baseline" secondItem="f3o-tY-lWc" secondAttribute="baseline" constant="1" id="nzi-el-NsT"/>
+                            <constraint firstItem="f3o-tY-lWc" firstAttribute="trailing" secondItem="CZI-hN-czD" secondAttribute="trailingMargin" id="w4Y-fn-511"/>
+                            <constraint firstItem="5Ch-Ib-RY0" firstAttribute="top" secondItem="fej-eX-Pfi" secondAttribute="bottom" constant="1" id="y0K-Dj-8Ic"/>
+                            <constraint firstItem="fej-eX-Pfi" firstAttribute="leading" secondItem="5Ch-Ib-RY0" secondAttribute="leading" id="zrZ-ZT-MVb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5Do-21-etQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="CZI-hN-czD" secondAttribute="bottom" constant="-3.5" id="QkE-fN-Qvm"/>
+                    <constraint firstItem="CZI-hN-czD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="iXq-yO-Uv8"/>
+                    <constraint firstItem="CZI-hN-czD" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="rYo-gD-tcI"/>
+                    <constraint firstItem="CZI-hN-czD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-4" id="roD-du-TaA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="amountLabel" destination="f3o-tY-lWc" id="VOV-Oy-y71"/>
+                <outlet property="bgContainerView" destination="CZI-hN-czD" id="2id-62-wNU"/>
+                <outlet property="dateLabel" destination="5Ch-Ib-RY0" id="XB4-pO-BeW"/>
+                <outlet property="purchaseDateLabel" destination="fej-eX-Pfi" id="IbH-ip-7OP"/>
+            </connections>
+            <point key="canvasLocation" x="407" y="353"/>
+        </tableViewCell>
+    </objects>
+</document>
